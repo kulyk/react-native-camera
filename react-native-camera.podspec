@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
     ss.dependency 'GoogleMLKit/BarcodeScanning','~> 2.2.0'
   end
 
-  s.default_subspecs = "RN", "RCT"
+  s.default_subspecs = "RN", "RCT", "TextDetector"
 
   s.preserve_paths = 'LICENSE', 'README.md', 'package.json', 'index.js'
 
